@@ -1,0 +1,884 @@
+
+#blockBody 
+{
+	width: 1035px;
+	height: auto;
+	
+	margin: 0 auto;
+}
+
+#blockHeader
+{
+	width: 1035px;
+	height: 200px;
+	
+	
+}
+#blockRight
+{
+	
+	float: right;
+}
+#blockContent
+{	
+
+	
+	width: 800px;
+	height: auto;
+	
+}
+
+
+
+
+
+
+#headerTopBlock
+{
+	width: 1035px;
+	height: 35px;
+	
+}
+
+#blockFooter
+{
+	width: 1035px;
+	height: 160px;
+	margin-top: 10px;
+	border-top: 5px solid grey;
+	clear: both;
+}
+
+#headerTopMenu li 
+{
+	float: left;
+	font:15px sans-serif;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #E3E3E3;
+}
+
+#headerTopMenu a 
+{
+	font:15px sans-serif;
+	color: #00678C;
+	text-decoration: none;	
+}
+
+#headerTopMenu a:hover 
+{
+	font:15px sans-serif;
+	color: green;
+	border-bottom: 1px dashed #EF662B;	
+}
+
+#headerTopMenu span
+{
+	color: red;
+	border-bottom: 1px dashed #EF662B;
+}
+
+#regAuth
+{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+#regAuth a.topAuth
+{
+	font:13px bold sans-serif;
+	text-decoration: none;
+	background: grey;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border:1px solid #E9EAEA;
+	border-radius: 5px;
+	cursor: pointer;
+	color: black;
+}
+
+#regAuth a.topAuth:hover
+{
+	background: pink;
+}
+
+#regAuth a
+{
+	font:14px sans-serif;
+	text-decoration: none;
+	color: red;
+	margin-left: 10px;
+	border-bottom: 1px dashed red;
+}
+
+#regAuth a:hover
+{	
+	color: red;
+	border-bottom: none; 
+}
+
+
+#logoImg
+{
+	margin-top: 12px;
+	position: absolute;
+}
+
+#personalInfo
+{
+	width: 300px;
+	
+	margin-left: 730px;
+
+}
+
+#personalInfo img
+{
+	width: 34px;
+	height: 35px;	
+	margin-left: 265px;
+	margin-top: -50px;
+	position: absolute;
+}
+
+#personalInfo p
+{
+	font:15px sans-serif;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	margin-right: 45px;
+
+}
+#personalInfo h3
+{
+
+	font:bold 20px verdana;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	
+}
+
+#searchLine
+{	
+	margin-left: 700px;
+	width: 345px;
+	height: auto;
+	
+	margin-top: 10px;
+}
+#searchLine span
+{	
+	background: url(/image/q.png);	
+	width: 13px;
+	height: 13px;
+	
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+#searchLine input#inputSearch
+{	
+	padding-left: 20px; 
+	width: 250px;
+	height: 26px;
+	border: 1px solid #E1E1E2;
+	font:14px sans-serif;
+}
+
+#buttonSearch
+{
+	width: 58px;
+	height: 30px;
+	border: 1px solid #E1E1E2; 
+	margin-left: -5px;
+	cursor: pointer;
+}
+
+#buttonSearch:hover
+{
+	background: yellow;
+} 
+
+#headerBottomMenu
+{	
+	margin-top: 7px;
+	width: 1033px;
+	height: 45px;
+	
+}
+
+
+#headerBottomMenu li
+{
+	margin-left: 10px;
+	margin-top: 8px;
+	float: left;
+	
+
+}
+
+#headerBottomMenu img
+{	
+	margin-top: -10px;
+	float: left;
+	width: 32px;
+	height: 32px;
+
+
+}
+
+#headerBottomMenu a
+{
+	font:15px sans-serif;
+	color: #BAC5D1;
+	margin-left: 4px; 
+	margin-right: 3px;
+	text-decoration: none;
+	border-bottom: 1px dashed #BAC5D1;
+}
+
+#headerBottomMenu a:hover
+{
+
+	color: orange;
+	border-bottom:  1px dashed orange;
+}
+
+
+#blockBasket
+{
+	margin-top: 0px;
+	padding-top: 7px;
+}
+
+#blockBasket a
+{
+	color: black;
+	font: bold 15px sans-serif;
+	text-decoration: none;
+	margin-left: 40px;
+	border-bottom: 1px dashed #34659D;
+}
+
+#blockBasket a:hover
+{	color: red; 
+	border-bottom: none;
+}
+
+#blockBasket img
+{
+	position: absolute;
+	margin-top: -3px;
+}
+
+#navLine
+{	
+	margin-top: 12px;
+	border-bottom: 2px solid grey;
+}
+
+
+#blockCategories
+{
+	width: 220px;
+	height: auto;
+	
+
+}
+
+.headerTitle
+{
+	font:14px sans-serif;
+	
+	width: 210px;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background: #4ED10C;
+	color: white;
+	border-radius: 7px 7px 0px 0px;
+}
+
+#blockCategories img
+{
+	width: 15px;
+	height: 24px;
+	
+}
+
+/* изменяем конкретно тег ли в ЮЛ , а не все элементы */
+#blockCategories >ul>li
+{
+	border-bottom: 1px solid #EFEFEF;
+
+}
+
+#blockCategories > ul > li > a
+{
+	font:15px sans-serif;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 30px;
+	display: block;
+	cursor: pointer; 
+	color: black;
+}
+
+
+#blockCategories > ul > li > a:hover
+{
+	background: grey;
+}
+
+#blockCategories > ul > li > a.active
+{
+	background: #EEEEEE;
+}
+
+#mobileImage
+{
+		position: absolute;
+		margin-left: -26px;
+		margin-top: -3px;
+}
+
+#noteImage
+{
+		position: absolute;
+		margin-left: -26px;
+		margin-top: -3px;
+}
+
+
+
+
+#laptopImage
+{
+position: absolute;
+margin-left: -26px;
+margin-top: -3px;
+}
+
+.catSection
+{
+	margin-bottom: 5px;
+	margin-left:  25px;
+}
+
+.catSection li
+{	
+	display: none;
+	margin-top: 3px;
+}
+
+.catSection a
+{
+	font:15px sans-serif;
+	color:black;
+
+}
+
+.catSection a:hover
+{
+	text-decoration: underline;
+}
+
+#paramsRight
+{	width: 220px;
+	height: auto;
+	
+	margin-top: 10px;
+
+}
+
+.titleFilter
+{
+	font:bold 14px sans-serif;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#inputPrice li
+{	
+	float: left;
+	margin-left: 10px;
+}
+
+#inputPrice input
+{
+	width: 45px;
+	height: 20px;
+	font:14px sans-serif;
+	border:1px solid #DCDCDC;
+	padding-left: 3px;
+}
+
+
+#inputPrice p
+{
+	font:14px sans-serif;
+	float: left;
+	margin-top: 0px;
+	padding-top: 2px;
+}
+
+#blockTrackBar
+{
+	width: 220px;
+	height: 20px;
+	border:1px solid black;
+	margin-top: 20px;
+	clear: both;
+}
+
+.checkboxBrand li
+{
+	font:14px sans-serif;
+	margin-left: 5px;
+	margin-top: 3px;
+	
+}
+
+
+.checkboxBrand input
+{
+	margin-right: 8px;
+}
+
+#searchButtonParams
+{
+	width: 81x;
+	height: 27px;
+	background: white;
+	cursor: pointer;
+}
+
+#searchButtonParams:hover
+{
+	margin-top: 1px;
+	margin-left: 1px;
+	background: #C3D1BD;
+	border:none;
+}
+
+#searchButtonParams:active
+{
+	margin-top: 3px;
+	margin-left: 3px;
+	background: #A3D15E;
+}
+
+
+#newsBlock
+{
+	width: 220px;
+	height: auto;
+	
+	margin-top: 15px;
+	margin-bottom: 15px; 
+}
+
+#newSticker
+{
+	width: 220px;
+	border-top: 1px solid #DDDDDD;
+}
+
+#newSticker p 
+{
+	font:14px sans-serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+#newSticker li
+{	
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #DDDDDD;
+}
+
+#newSticker a
+{
+	text-decoration: none;
+	color: #EF662B;
+	font:bold 14px sans-serif;
+}
+
+#newSticker a:hover
+{
+	text-decoration: underline;
+}
+
+
+#newSticker span
+{	
+	display: block;
+	padding-bottom: 5px;
+	color: #4ED1C6;
+	font:13px sans-serif;
+}
+
+#newsBlock img
+{
+	width: 8px;
+	height: 6px;
+
+}
+
+
+#newsBeforeImg
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#newsNextImg
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+#blockFooter
+{
+	text-transform: capitalize;
+}
+
+#callbackInfo
+{
+	width: 270px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#callbackInfo h4
+{
+	font:bold 16px sans-serif;
+	margin: 0;
+}
+
+#callbackInfo h3
+{
+	margin:5px 0 ;
+	font:bold 23px sans-serif;
+}
+
+#callbackInfo p
+{	
+	font:15px sans-serif;
+	margin-left: 5px 0;
+}
+
+
+.footerList
+{
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+}
+
+.footerList li 
+{
+	margin-top: 5px;
+}
+
+.footerList p
+{	
+	font:bold 14px sans-serif;
+	margin-bottom: 10px;
+	color:#641B74 ;
+}
+
+.footerList a 
+{	font:14px sans-serif;
+	text-decoration: none;
+	color: #7B7B7B;
+}
+
+.footerList a:hover 
+{	color: #FFDD00;
+	text-decoration: underline;
+}
+
+
+#navBreadcrumb 
+{
+	margin-top: 5px;
+}
+
+#navBreadcrumb a
+{	
+	font:13px sans-serif;
+	color: #4268B1;
+}
+
+#navBreadcrumb a:hover 
+{
+	color:#E20000;
+}
+
+#navBreadcrumb span
+{
+	color: #7F868E;
+	font:14px sans-serif;
+}
+
+#blockSorting
+{
+	height: 60px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+#optionList img
+{	
+	margin-top: -4px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+#optionList >li
+{	margin-top: 10px;
+	margin-left: 10px;
+	font:14px sans-serif;
+	float: left;
+}
+
+#optionList 
+{
+	margin-left: -10px;
+}
+
+#selectSort
+{
+	color: #748996;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#sortingList
+{
+	border:1px solid black;
+	position: absolute;
+	width: 200px;
+	height: 108px;
+	background-color: white;
+	padding-top: 5px;
+	display: none;
+}
+
+#sortingList li
+{	
+	margin-top: 3px;
+	margin-left: 10px;
+}
+
+#sortingList li:first-letter
+{
+	text-transform: capitalize;
+}
+
+#sortingList a
+{
+	font:15px sans-serif;
+	text-decoration: none;
+	color: black;
+
+}
+
+#sortingList a:hover
+{
+	text-decoration: underline;
+	color: #FF4400;
+}
+
+#blockImage >img
+{
+	width: 200px;
+	height: 200px;
+}
+
+
+.reviews img
+{
+	width: 20px;
+	height: 20px;
+}
+
+
+.rewievsCounts>li>img, .rewievsCountsList>li>img
+{
+	width: 20px;
+	height: 16px;
+}
+
+.blockImages img{
+	width: 150px;
+	height: 200px;
+}
+
+
+#productBlock>li
+{
+	
+	width: 380px;
+	float: left;
+	height: 230px;
+	margin-left: -30px;
+}
+
+.styleTitle,.styleTitleList
+{
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.styleTitle a ,.styleTitleList a 
+{
+	font:bold 15px sans-serif;
+	color: #0A83AB; 
+	text-decoration:underline; 
+}
+
+.styleTitle a:hover,.styleTitleList a:hover
+{
+	color: #E26666;
+}
+
+.blockImages{
+	float: left;
+	width: auto;  
+	height: 230px;
+	margin-right: 15px;
+}
+
+.rewievsCounts 
+{	
+	height: 25px;
+	margin-top: 10px;
+	
+}
+.rewievsCounts> li
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.rewievsCounts>li>p
+{
+	
+	margin-left: 25px;
+	font:13px sans-serif;
+}
+
+.rewievsCounts>li>img
+{
+	position: absolute; 
+}
+
+.priceStyle
+{
+	font:bold 23px sans-serif;
+	color:#6B6D73;
+}
+
+.addCartStyle img, .addCartStyleList img
+{	margin-top: -2px;
+	width: 48px;
+	height: 25px;
+	float: left;
+	margin-right: 5px;
+	display: block;
+
+}
+
+.miniFeature
+{
+	margin-top: 10px;
+}
+
+
+.blockImagesList 
+{
+	float: left;
+	margin-right: 15px; 
+	min-height: 160px;
+	height: auto;
+}
+.blockImagesList img
+{
+	width: 250px;
+	height:250px;
+}
+#productBlockList{
+	display: none;
+	opacity: 0;
+}
+
+
+#productBlockList>li
+{
+	float: left;
+	border-bottom: 2px solid #E6E6E6;
+	min-height: 160px;
+	height: auto;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	}
+
+.rewievsCountsList
+{
+	position: absolute;
+	margin-left: 670px;
+}
+
+.rewievsCountsList>li
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px; 
+}
+
+.rewievsCountsList>li>p
+{
+	margin-left: 25px;
+	margin-top: -19px;
+	font:13px sans-serif;
+}
+
+.rewievsCountsList>li>p>img
+{
+	position: absolute;
+}
+
+
+.priceStyleList
+{
+	font:20px sans-serif;
+	margin-top: 3px;
+	color: #6B6D73;
+
+}
+
+.priceStyleList>span
+{
+	font-weight: 900;
+}
+
+.miniFeatureList
+{
+	margin-top: 10px;
+	font: 15px sans-serif;
+
+}
